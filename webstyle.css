@@ -13,26 +13,6 @@
     content: "";
 }
 
-.callout {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    background: #f1f1f1;
-    padding: 12px 16px;
-    border-radius: 8px;
-    margin: 12px 0;
-    border: 1px solid #e0e0e0;
-}
-
-.callout-icon {
-    font-size: 24px;
-    line-height: 1;
-}
-
-.callout-text {
-    color: #333;
-}
-
 .card {
     width: 400px; /* increase width */
     background: #f1ebe1;
@@ -87,6 +67,29 @@
   }
   
   a:hover {
-    color: #555; /* optional hover color */
+    color: #44624a; /* optional hover color */
+  }
+
+  .hover-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .popup-box {
+    display: none;
+    position: absolute;
+    top: 40px; /* pushes it below the trigger */
+    left: 0;
+    background: #f1ebe1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 250px;
+    z-index: 100;
+  }
+  
+  .hover-container:hover .popup-box {
+    display: block;
   }
   

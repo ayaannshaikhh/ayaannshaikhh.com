@@ -6,13 +6,6 @@
     font-size: 14px;
 }
 
-.quote {
-    quotes: none;
-}
-.quote::before, .quote::after {
-    content: "";
-}
-
 .card {
     width: 400px; /* increase width */
     background: #f1ebe1;

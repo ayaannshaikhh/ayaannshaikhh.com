@@ -46,10 +46,14 @@
     font-size: 12px;
   }
   
-  .tag.major {
+  .tag.secondary {
     background: #c0cfb2;
   }
-  
+
+  .tag.tertiary {
+    background: #CDD9C2;
+  }
+
 
   a {
     color: #44624a; /* or any color you like */
